@@ -34,6 +34,7 @@ class Song
   
   def genre_count
     @@genres.collect do |gen|
+      binding.pry 
       [:gen] => gen.count
     end
   end
