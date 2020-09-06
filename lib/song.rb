@@ -34,7 +34,7 @@ class Song
   
   def genre_count
     @@genres.collect do |gen|
-      :gen => gen.count
+      [:gen] => gen.count
     end
   end
 end
