@@ -33,9 +33,6 @@ class Song
   end
   
   def self.genre_count
-    @@genres.collect do |gen|
-      binding.pry 
-      #[:gen] => gen.count
-    end
+    
   end
 end
